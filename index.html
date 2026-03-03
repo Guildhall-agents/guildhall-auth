@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3">
+  <title>Connecting Guildhall...</title>
+  <style>
+    body { font-family: system-ui, sans-serif; display: flex; align-items: center;
+           justify-content: center; height: 100vh; margin: 0; background: #0F0F14; color: #fff; }
+    p { font-size: 1.1rem; opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <p>Connecting to Guildhall...</p>
+  <script>
+    window.location.href = 'guildhall://oauth/slack/callback' + window.location.search;
+  </script>
+</body>
+</html>
